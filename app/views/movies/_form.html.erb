@@ -8,9 +8,13 @@
     <%= f.input :director %>
     <%= f.input :rating %>
     <%= f.association :user %>
+    <%= f.input :image, as: :file %>
   </div>
 
   <div class="form-actions">
     <%= f.button :submit %>
   </div>
 <% end %>
+
+
+
