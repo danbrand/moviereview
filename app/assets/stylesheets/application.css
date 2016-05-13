@@ -25,8 +25,13 @@ body {
 
 /*-------------SIGN UP-------------------*/
 #sign_up_form{
-	margin-top: 80px;	
+	margin-top: 70px;
+	padding: 0px 20px;	
+	border-style: solid;
+	border-width: 4px;
+	border-color: #00b386;
 }
+
 
 #sign_up_background{
 	background: url("sign_up_background.jpg") no-repeat fixed center;
@@ -34,11 +39,23 @@ body {
 
 #sign_up_heading{
 	text-align: center;
+	margin-bottom: 40px;
 }
 
 /*-------------SIGN IN-------------------*/
 
 #sign_in_form{
 	margin-top: 80px;
+	padding: 0px 20px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: #00b386;
 }
+
+#sign_up_background{
+	background: url("sign_up_background.jpg") no-repeat fixed center;
+}
+
+#sign_in_heading{
+	text-align: center;
 
